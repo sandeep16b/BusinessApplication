@@ -1,0 +1,57 @@
+# Build Folders
+bin/
+obj/
+*.log
+*.tlog
+
+# User-Specific Files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs & Debugging
+logs/
+*.log
+!stdout.log  # If using stdout logging, keep this
+
+# ASP.NET Core Config
+appsettings*.json
+!appsettings.Development.json  # Keep dev settings, ignore other env files
+secrets.json
+
+# Static Web Assets (Generated Files)
+wwwroot/lib/
+wwwroot/node_modules/
+
+# ASP.NET Core Publish Files
+.publish/
+out/
+staticwebassets/
+
+# Rider & VS Code Settings
+.idea/
+*.code-workspace
+
+# Package Dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Generated Assets (MSBuild & Static Assets)
+BusinessApplication/BusinessApplication/obj/Debug/net8.0/staticwebassets/msbuild.*
+
+# IIS & Deployment
+# Ignore `web.config` in Development but keep it in Production
+web.config
+
+# Azure & Deployment Files
+.terraform/
+.venv/
+local.settings.json
