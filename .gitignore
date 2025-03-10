@@ -4,6 +4,9 @@ obj/
 *.log
 *.tlog
 
+# Ignore Visual Studio files
+.vs/
+
 # User-Specific Files
 .vscode/
 *.user
